@@ -1,0 +1,177 @@
+nav .whap {
+  position: fixed;
+  right: 7%;
+  height: 40px;
+}
+nav .perfil {
+  position: fixed;
+  right: 10%;
+  height: 40px;
+}
+nav .logo {
+  font-size: 60px;
+  margin-right: 30px;
+}
+nav .container-fluid {
+  margin-top: 80px;
+}
+
+header .menu {
+  list-style: none;
+  margin: auto;
+  background-color: white;
+  padding: 0%;
+  width: 90%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+header .menuinicio {
+  text-decoration: none;
+  display: inline-block;
+  padding: 30px;
+  text-align: center;
+  background-color: black;
+}
+header .menuinicio a {
+  text-decoration: none;
+  color: white;
+}
+
+.accesorios {
+  color: black;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+.containerlistas {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  width: 20%;
+  border: solid black;
+  border-radius: 1rem;
+  margin-top: 30px;
+  margin-left: 40px;
+  padding: 30px;
+}
+.containerlistas .listacces {
+  color: black;
+  border-color: black;
+  list-style: none;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.imgnavbar {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 50px;
+  padding-top: 80px;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+}
+.imgnavbar .img1 {
+  border-radius: 10px;
+  width: 60%;
+}
+.imgnavbar .imgnav:hover {
+  margin-top: 30px;
+  transform: scale(1.4);
+}
+
+.menuderegistro {
+  color: white;
+  background-color: black;
+  margin-top: 100px;
+}
+.menuderegistro .registro {
+  font-size: 30px;
+}
+.menuderegistro .subregistro {
+  font-size: 15px;
+}
+.menuderegistro .emailregistro {
+  height: 30px;
+  padding-right: 50px;
+  margin-left: 60%;
+  border-radius: 5px;
+}
+
+.cont {
+  color: black;
+  text-decoration: none;
+  margin-left: 30px;
+}
+.cont .contactos {
+  padding-right: 50%;
+  margin-left: 50px;
+}
+
+/*bootstrap*/
+.container-fluid {
+  position: fixed;
+  padding-left: 300px;
+  background-color: white;
+  right: 7%;
+}
+.container-fluid .navbar-brand {
+  color: black;
+}
+.container-fluid .nav-link {
+  color: black;
+}
+.container-fluid .nav-link {
+  color: black;
+}
+
+/*media queries*/
+@media screen and (max-width: 768px) {
+  .whap {
+    right: 11%;
+  }
+  .perfil {
+    right: 15%;
+  }
+  .logo {
+    padding-left: 70px;
+  }
+  .accesorios {
+    font-size: 30px;
+  }
+  .containerlistas {
+    margin-left: 20px;
+    width: 22%;
+  }
+  .imgnavbar {
+    grid-template-columns: repeat(2, 2fr);
+  }
+}
+@media screen and (max-width: 480px) {
+  .whap {
+    right: 7%;
+  }
+  .perfil {
+    right: 12%;
+  }
+  .logo {
+    margin-top: 50px;
+  }
+  .logo {
+    font-size: 50px;
+    right: 6%;
+  }
+  .containerlistas {
+    width: 35%;
+  }
+  .imgnavbar {
+    grid-template-columns: repeat(1, 2fr);
+  }
+  .emailregistro {
+    margin-left: 30%;
+  }
+}/*# sourceMappingURL=estilo.css.map */

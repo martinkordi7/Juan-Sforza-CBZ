@@ -1,0 +1,26 @@
+$avisos:(
+black: black
+)
+@each $var, $color in $avisos {
+    .color-#{$var}{
+        background-color: $avisos;
+    }
+
+    
+}
+.destacados{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 100px;}
+    .sale{
+        @extend .destacados
+        
+    }
+    @mixin size ($alto,$ancho){
+        width: $ancho;
+        height: $alto;
+    }
+    .avisos{
+        @include size(100px,1200px)
+        }
